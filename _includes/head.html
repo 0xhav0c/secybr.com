@@ -117,8 +117,8 @@
     <meta property="og:image" content="{{ site.url }}/assets/img/logo/logo.png">
   {% endif %}
   <!-- Twitter cards -->
-  <meta name="twitter:site"    content="@{{ site.twitter_username }}">
-  <meta name="twitter:creator" content="@{{ page.author }}">
+  <meta name="twitter:site"    content="secybr">
+  <meta name="twitter:creator" content="0xhav0c">
   <meta name="twitter:title"   content="{{ page.title }}">
 
   {% if page.summary %}
@@ -129,10 +129,10 @@
 
   {% if page.image %}
   <meta name="twitter:card"  content="summary_large_image">
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
   {% else %}
   <meta name="twitter:card"  content="summary">
-  <meta name="twitter:image" content="{{ site.title_image }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/logo/logo.png">
   {% endif %}
   <!-- end of Twitter cards -->
   <!-- GA -->
