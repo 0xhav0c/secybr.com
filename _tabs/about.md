@@ -10,7 +10,7 @@ order: 4
 
 # who am i? 
 
-In the cyber security sector, which I started as a hobby in 2009, I have been continuing as a senior penetration tester for two years. I took part in penetration tests of many public institutions and private institutions/organizations. As part of the Red Team service, I constantly created and implemented Red Team scenarios and reported them. I performed L7 L4 type DoS-DDoS tests.
+I have been continuing as a senior penetration tester for two years in the cyber security sector, which I started as a hobby in 2009. I took part in penetration tests of many public and private institutions/organizations. My skills include constantly creating and implementing Red Team scenarios, L7-L4 type DoS-DDoS analysis and Network security.
 
 # aim? 
 
