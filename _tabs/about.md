@@ -26,6 +26,6 @@ I'm totally open to your constructive comments and criticisms.
 
 ## Contact information
 
-🐦 <a href="https://twitter.com/0xhav0c">https://twitter.com/0xhav0c</a>
+🐦 <a href="https://twitter.com/0xhav0c" target="_blank" rel="noopener noreferrer">https://twitter.com/0xhav0c</a>
 
-<i style="font-size:18px" class="fa">&#xf08c;</i>&ensp;[https://www.linkedin.com/in/asilhann/](https://www.linkedin.com/in/asilhann/)
+<i style="font-size:18px" class="fa">&#xf08c;</i>	&nbsp;<a href="https://www.linkedin.com/in/asilhann/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/asilhann/</a>
