@@ -77,12 +77,8 @@
   --code-header-text-color: #b7a15a;
   --code-header-muted-color: #b7a15a;
   --code-header-icon-color: #b7a15a;
-  --clipboard-checked-color: #2bcc2b;
+  --clipboard-checked-color: #b7a15a;
   --filepath-text-color: #64de18;
 
-  .highlight {
-    .gp { color: #818c96; }
-  }
 
-  pre { color: #bfbfbf; } /* override Bootstrap */
 }
