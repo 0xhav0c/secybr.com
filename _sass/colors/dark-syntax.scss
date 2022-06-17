@@ -80,5 +80,9 @@
   --clipboard-checked-color: #b7a15a;
   --filepath-text-color: #64de18;
 
+  .highlight {
+    .gp { color: #818c96; }
+  }
 
+  pre { color: #bfbfbf; } /* override Bootstrap */
 }
