@@ -1,5 +1,5 @@
 ---
-title: About
+title: Who Am i?
 icon: fas fa-info-circle
 order: 4
 ---
@@ -7,8 +7,6 @@ order: 4
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
 ![skull-logo.png](/assets/img/pitcures/about/skull-logo.png)
-
-# who am i? 
 
 I have been continuing as a senior penetration tester for two years in the cyber security sector, which I started as a hobby in 2009. I took part in penetration tests of many public and private institutions/organizations. My skills include constantly creating and implementing Red Team scenarios, L7-L4 type DoS-DDoS analysis and Network security.
 
