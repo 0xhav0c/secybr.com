@@ -20,7 +20,7 @@ timezone: Asia/Istanbul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: secybr                          # the main title
+title: secybr | penetration testing, red teaming and hack tricks.                          # the main title
 
 tagline: is a product of 0xhav0c   # it will display as the sub-title
 
