@@ -22,7 +22,7 @@ With this blog, I will provide you with:
 
 I'm totally open to your constructive comments and criticisms.
 
-## Contact information
+## contact information
 
 🐦 <a href="https://twitter.com/0xhav0c" target="_blank" rel="noopener noreferrer">https://twitter.com/0xhav0c</a>
 
