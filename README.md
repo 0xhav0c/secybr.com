@@ -18,7 +18,7 @@ I have been continuing as a senior penetration tester for two years in the cyber
 
 # aim? 
 ---
-I prepared documents for myself for the researchers I did and the situations I encountered during the penetration test & red teaming. I wanted to share these documents with you on a blog.
+I prepared documents for myself for the research I did and the situations I encountered during the penetration test & red teaming. I wanted to share these documents with you on a blog.
 
 With this blog, I will provide you with:
 
