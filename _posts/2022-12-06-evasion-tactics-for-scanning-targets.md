@@ -164,7 +164,7 @@ The problem is that this is burdensome to add (and remember)  everytime you nee
 
 ### NMAP How to change user agent
 
-You can find the default value in `**/usr/share/nmap/nselib/http.lua`** (At the beginning of the file, a couple of lines after the comments)
+You can find the default value in `/usr/share/nmap/nselib/http.lua` (At the beginning of the file, a couple of lines after the comments)
 
 ```shell
 local USER_AGENT = stdnse.get_script_args('http.useragent') or "Mozilla/5.0 (compatible; Nmap Scripting Engine; http://nmap.org/book/nse.html)"
@@ -237,7 +237,7 @@ nmap -sV -ff 192.168.x.x #if you want to break IP headers further.
 ![Fragment Packets - Nmap](/assets/img/pitcures/red-team/evasion15.png)
 _Fragment Packets - Nmap_
 
-![Capture a fragment packet****](/assets/img/pitcures/red-team/evasion16.png)
+![Capture a fragment packet](/assets/img/pitcures/red-team/evasion16.png)
 _Capture a fragment packet_
 
 ### Specify a specific MTU
