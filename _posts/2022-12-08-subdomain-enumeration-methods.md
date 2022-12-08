@@ -5,10 +5,9 @@ tags: [subdomain, subdomain enumeration, red-team]
 comments: true
 ---
 
-# Subdomain Enumeration Methods
-
 One of the first things to do in the discovery phase is to collect as many systems and IP addresses as possible without touching them. First of all, we need to find domains and subdomains. In this section, I will show you some of the subdomain enumeration methods.
 
+# Collecting Subdomains with Tools
 ## Curl & Parsing
 
 ```shell
