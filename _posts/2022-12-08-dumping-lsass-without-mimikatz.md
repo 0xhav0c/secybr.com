@@ -1,6 +1,6 @@
 ---
 title: Dumping LSASS Without Mimikatz
-categories: [red team,credential dumping]
+categories: []
 tags: [red-team,lsass,mimikatz,procdump,Comsvcs,crackmapexec,LSASSY,wdigest,]
 comments: true
 ---
