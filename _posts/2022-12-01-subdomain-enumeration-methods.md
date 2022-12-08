@@ -1,6 +1,6 @@
 ---
 title: Subdomain Enumeration Methods
-categories: [red team, reconing, subdomain enumeration]
+categories: [red team, reconing]
 tags: [subdomain, subdomain enumeration, red-team]
 comments: true
 ---
@@ -18,7 +18,7 @@ curl -s "https://jldc.me/anubis/subdomains/att.com" | grep -Po "((http|https):\/
 ```
 
 ![Collecting subdomains with curl from web.archive.org & jldc.me ](/assets/img/pitcures/red-team/subdomain.png)
-
+_Collecting subdomains with curl from web.archive.org & jldc.me_
 ## amass
 
 ```shell
@@ -80,13 +80,13 @@ bash sudomy -d example.com --all
 ```
 
 ![Fuzzing with ffuf](/assets/img/pitcures/red-team/subdomain1.png)
-
+_Fuzzing with ffuf_
 ## Certificate Search
 
 You can find subdomains with certificates by searching target domains in online certificate databases. Example site: [https://crt.sh](https://crt.sh/)
 
 ![Subdomain enumeration from check the https://crt.sh](/assets/img/pitcures/red-team/subdomain2.png)
-
+_Subdomain enumeration from check the https://crt.sh_
 # Parsing to Valid Subdomains
 
 ```python
