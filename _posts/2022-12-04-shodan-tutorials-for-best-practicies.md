@@ -405,303 +405,302 @@ TCP Quote of the Day  #  TCP Quote of the Day
 
 Or you can get help about what you are looking for here. (Use ctrl + F.)
 
-
-| Vendor | Product | Comment | Dorks |
-| --- | --- | --- | --- |
-| ABB | AC 800M | Controller | ABB AC 800M |
-| ABB | RTU560 | Substation automation product | ABB RTU560 |
-| ABB | RTU500 | Remote Terminal Unit | ABB RTU-Helpdesk |
-| ABB | SREA-01 | Ethernet Adapter Module | ABB SREA-01 |
-| ABB | Generic | Multiple Devices | ABB Webmodule |
-| ACKP | Generic | Multiple Devices, often data center monitoring | AKCP Embedded Web Server |
-| Adcon Telemetry | A440 Wireless Modem | Base Station | A440 Wireless Modem |
-| Adcon Telemetry | A850 Telemetry Gateway | Base Station for Adcon Wireless Sensor Networks | A850 Telemetry Gateway |
-| Adcon Telemetry | addUPI-OPC Server | . | addUPI Server |
-| Adcon Telemetry | addVANTAGE Pro 6.X | HMI | addVANTAGE |
-| Adcon Telemetry | Generic | Generic | title:adcon |
-| Beck IPC | IPC@CHIP | PLC | IPC@CHIP |
-| Cimetrics | Eplus - B/IP to B/WS Gateway Firewall | networking products for distributed monitoring and control systems | Cimetrics Eplus Web Server |
-| Clorius Controls A/S | ISC SCADA | SCADA Software | ISC SCADA Service HTTPserv:00001 |
-| Codesys | WebVisu | . | Webvisu |
-| CodeSys | WebVisu | . | Visu Remote Login |
-| Codesys | . | . | port:2455 operating system |
-| CodeSys | . | . | 3S-Smart Software Solutions |
-| Delta Controls | enteliTOUCH | HMI Building automation | DELTA enteliTOUCH |
-| Echelon | i.LON SmartServer 2.0 | Building Energy Management Solution,  LonWorks/IP Server,  Internet Server | i.LON |
-| General Electric | CIMPLICITY WebView | CIMPLICITY is HMI/SCADA | CIMPLICITY WebView |
-| General Electric | Cimplicity | CIMPLICITY is HMI/SCADA | CIMPLICITY-HttpSvr |
-| General Electric | Proficy | Historian (now named GE Digital) | ProficyPortal |
-| General Electric | . | Service Request Transport Protocol (GE-SRTP) | port:18245,18246 product:"general electric" |
-| Generic | . | Modus | port:502 |
-| Generic | . | dnp | port:20000 source address |
-| Generic | . | BACnet protocol (Data Communication Protocol for Building Automation and Control Networks) | port:47808 |
-| Generic | - | EtherNet/IP | port:44818 |
-| Generic | . | The HART Communications Protocol (Highway Addressable Remote Transducer Protocol) is an early implementation of Fieldbus, a digital industrial automation protocol. | port:5094 hart-ip |
-| Generic | goAhead embedded webserver | . | GoAhead-Webs InitialPage.asp |
-| Generic | . | . | Modbus Bridge |
-| Generic | . | . | ModbusGW |
-| Generic | Generic | Generic | PLC type |
-| Generic | Generic | Generic | PLC name |
-| Generic | Industrial Ethernet system, open-source used by various vendoes | openPowerlink, ethernet-powerlink.org devices (PLC HMI ..) | Powerlink |
-| Generic | . | . | SCADA |
-| Generic | . | . | webSCADA |
-| HMS | EtherNet/IP / Modbus-TCP Interface | Generic | HMS AnyBus-S WebServer |
-| Honeywell EnergyICT | eiPortal | Energy Monitoring Software | eiPortal |
-| Honeywell EnergyICT | RTU | Remote Data Concentrator | EnergyICT RTU |
-| KW Software, Inc. | . | ProConOS / PLC | port:20547 PLC |
-| Lantronix | . | . | lantronix |
-| Lantronix | . | default telnet port | lantronix port:9999 |
-| Lantronix | . | . | port:30718 lantronix |
-| Mitsubishi Electric | MELSEC-Q Series | . | port:5006,5007 product:mitsubishi |
-| Motorola | Moscad | . | Moscad ACE |
-| Movicon/Progea | . | Web-Client | MovWebClientX |
-| Moxa | ioLogik Web Server | SCADA Software | ioLogik Web Server |
-| Moxa | Nport and OnCell devices | . | port:4800 'Moxa Nport' |
-| Moxa | Nport devices | . | title:'NPort web console' |
-| Moxa | AirWorks AWK-3131-RCC/Railway Remote I/O (ioLogik E12xx)/Cellular Micro RTU Controller (ioLogik W53xx, ioLogik)/VPort 461 Industrial Video Encoder/IA240 Embedded computer/IA241 Embedded computer/OnCell Central Manager/EDS-505A Series/EDS-508A Series/OnCell G3100 Series/Generic | generic | MoxaHttp |
-| Moxa | OnCell devices | . | port:4800 'OnCell' |
-| NRG Systems | WindCube | Wind Speed Meter | WindWeb |
-| Omron | . | FINS, Factory Interface Network Service, | port:9600 response code |
-| Phoenix Contact GmbH | . | SCADA visualization system | Visu+ Web Client |
-| Phonix Contact | . | PCWorxs | port:1962 PLC |
-| Phonix Contact | AXC is a modular small-scale controller for the Axioline I/O system | PCWorxs | PLC Type: AXC |
-| Phonix Contact | ILC controllers | PCWorxs | PLC Type: ILC |
-| Quantum | . | Multiple Devices | Quantum BACnet |
-| Rabbit | Z-World Rabbit | Multiple Devices | title:phasefale Z-World Rabbit |
-| Rabbit | Generic | Multiple Devices | Z-World Rabbit |
-| Red Lion Controls | . | Red Lion Controls G306a human machine interface (HMI). | port:789 product:"Red Lion Controls" |
-| Reliance | Reliance 4 SCADA/HMI system | SCADA/HMI  Software | Reliance 4 Control Server |
-| Rockwell Automation | Generic | Generic | Rockwell Automation |
-| Rockwell Automation / Allen-Bradley | Generic | Generic | Allen-Bradley |
-| Rockwell Automation / Allen-Bradley | . | small programmable logic controller solution | Micrologix |
-| Rockwell Automation / Allen-Bradley | Generic | Generic | Series C Revision |
-| RTS Services | General | SCADA Software | RTS SCADA Server |
-| SBC | . | Saia Burgess Control Applet | IMasterSaia5_15_03.jar |
-| SBC | . | . | Saia PG5 Web Editor |
-| Schleifenbauer | SPbus gateway | Network Gateway | Schleifenbauer SPbus gateway |
-| Schneider Electric | CitectSCADA | HMI / SCADA software package | CitectSCADA |
-| Schneider Electric | Generic | SCADA software | ClearSCADA |
-| Schneider Electric | PowerLogic EGX | EGX100MG | EGX100MG |
-| Schneider Electric | Modicon | generic | Modicon |
-| Schneider Electric | Modicon M340 | PLC | Modicon M340 |
-| Schneider Electric | PowerLogic ION7650 Energy and power meter | Energy and power meter | port:23 'Meter ION' |
-| Schneider Electric | Generic | Energy and power meter | Power Measurement Ltd |
-| Schneider Electric | PowerLogic Series | Power Monitoring Module | PowerLogic |
-| Schneider Electric | generic | generic | Schneider Electric |
-| Schneider Electric | General | Multiple Devices | Schneider-WEB |
-| Schneider Electric | Modicon | generic | TELEMECANIQUE BMX |
-| Schneider Electric | Generic | Generic | title:PowerLogic |
-| Schneider Electric | EGX300 | . | Schneider Electric EGX300 |
-| Siemens | Simatic HMI | HMI | HMI XP277 |
-| Siemens | Simatic S7-1200 | PLC | Portal0000 |
-| Siemens | Simatic S7-300 (pre-2009 versions) | PLC | Portal0000.htm |
-| Siemens | Simatic S7-200 | PLC | S7-200 |
-| Siemens | Simatic S7-300 | PLC | S7-300 |
-| Siemens | Scalance generic | SCALANCE X  Industrial Ethernet switches / SCALANCE W  Industrial Wireless LAN / SCALANCE M  Industrial routers / SCALANCE S  Industrial Security | Scalance |
-| Siemens | Generic | Generic | Copyright: Original Siemens Equipment |
-| Siemens | Simatic HMI | Generic | Simatic |
-| Siemens | Simatic HMI | Generic | Welcome to the Windows CE Telnet Service on HMI_Panel |
-| Siemens | Simatic | . | XP277 |
-| Siemens | PLC | port can not be deactivated by user | port:102 |
-| Sierra Wireless | . | . | /gc/flash.php |
-| SoftPLC | . | . | SoftPLC |
-| Somfy | General | Smart Home Devices | title:Somfy |
-| SpiderControl | Generic | HMI | SpiderControl |
-| Stulz GmbH | Generic | Generic | Stulz GmbH Klimatechnik |
-| Trend | IQ3xcite | Controller | server: iq3 |
-| Tridium | . | Fox protocol developed as part of Niagara framework | port:1911,4911 product:Niagara |
-| Tridium | NiagaraAX (ver 1) | Software for JACE-2  JACE-403 or JACE-545 | Niagara Web Server |
-| Tridium | NiagaraAX (ver 2) | Software for JACE-2  JACE-403 or JACE-545 | niagara_audit |
-| Tridium | NiagaraAX (ver 3) | Software for JACE-2  JACE-403 or JACE-545 | niagara_audit -login |
-| Tridium | Niagara Framework | . | Niagara-Platform: QNX |
-| Tridium | Niagara Framework | . | os.name=s:QNX |
-| Trihedral | . | VTScada ODBC Server | Server: VTScada |
-| Wago | Generic | Generic | title:WAGO |
-| Wind River | VxWorks | SCADA Software | VxWorks |
-| Wind River | Generic | Generic | WindRiver-WebServer |
-| Xzeres | 442SR | small wind turbine | title:'xzeres wind' |
-| Generic | . | IEC 60870 part 5 is one of the IEC 60870 set of standards which define systems used for SCADA in electrical engineering and power system automation applications. | port:2404 asdu address |
-| Carel | pCO sistema | pCOWeb is used to interface pCO Sistema to networks that use the HVAC protocols like BACnet IP  Modbus TCP/IP or SNMP | title:'Carel pCOWeb Home Page' |
-| Heatmiser | . | wireless room thermostats | title:'Heatmiser Wifi Thermostat' |
-| generic | . | searching tag values requires suitable account | tag:ics |
-| generic | . | searching tag values requires suitable account | tag:iot |
-| Tridium | BACNet Devices | . | "Local BACnet Device object" "Tridium" |
-| Carel | BACNet Devices | . | "Carel BACnet Gateway" |
-| Siemens | BACNET Devices | . | "Siemens BACnet Field Panel" |
-| generic | BACNet Devices | . | "BACnet Broadcast Management Device" |
-| Veeder-root | . | Automated Tank Gauge (Vendor most likely Veeder-Root but not guaranteed) results typically contain a lot of honyepots (conpot) | I20100 port:10001 |
-| Generic | . | Screenshots tagged as ICS (will contain some false positives) | screenshot.label:ics |
-| Generic | . | standard port for MQTT + MQTT banner / MQTT -> MQ Telemetry Transport | port:1883 "MQTT Connection Code" |
-| Generic | . | standard port for MQTT over SSL + MQTT banner / MQTT -> MQ Telemetry Transport / UNTESTED | port:8883  "MQTT Connection Code" |
-| Fronius | Generic | solar energy, most likely inverters | port:1883 Fronius |
-| Lantronix | . | default telnet port without password enabled  hint: Lantronix includes MAC address in banner which can be used for extra validation | "Press Enter for Setup Mode" port:9999 |
-| Carel | PlantVisor | . | "Server: CarelDataServer" "200 Document follows" |
-| Nordex | . | Wind Farm Portal | http.title:"Nordex Control" "Windows 2000 5.0 x86" "Jetty/3.1 (JSP 1.1 Servlet 2.2 java 1.6.0_14)" |
-| dministration |  | .edu US SSH | hostname:edu country:us port:22 |
-| Administration |  | admin/1234 | admin 1234 |
-| Administration |  | admin | port:80 admin |
-| Administration |  | Allegro | 200 OK -Microsoft -Virata -Apache Allegro |
-| Administration |  | AMX Control Systems | 1.1-rr-std-b12 port:80 |
-| Administration |  | Anonymous Access Allowed | Anonymous+access+allowed |
-| Administration |  | Anonymous Access Granted | anonymous access granted |
-| Administration |  | APC Management Card | APC Management Card |
-| Administration |  | apc | apc |
-| Administration |  | Barracuda targets | barracuda |
-| Administration |  | bigfix | bigfix |
-| Administration |  | CarelDataServer | CarelDataServer |
-| Administration |  | Cern 3.0 | CERN 3.0 |
-| Administration |  | Coldfusion Developer Edition | a license exception |
-| Administration |  | CPU | computershare |
-| Administration |  | Dell Remote Access Controller | Remote Access Controller port:80 |
-| Administration |  | Delta Networks Inc | delta |
-| Administration |  | DNS | fast dns port:80 |
-| Administration |  | etcd | etcd |
-| Administration |  | Firewalls | firewall 200 |
-| Administration |  | General SSH | port:22 |
-| Administration |  | Hewlett Packard print ftp | 230-Hewlett-Packard |
-| Administration |  | hitbox | HitboxGateway9 |
-| Administration |  | HP LaserJet 4250 | HP-ChaiSOE |
-| Administration |  | JetDirect HP Printer | jetdirect |
-| Administration |  | Liebert Devices | liebert - liebert.com |
-| Administration |  | Micro$oft Exchange | Exchange |
-| Administration |  | ngamil | nga.mil |
-| Administration |  | Nortel SIP devices | port:5060 Nortel |
-| Administration |  | ossim | ossim |
-| Administration |  | Root shell | port:23 "list of built-in commands" |
-| Administration |  | SAPHIR | wince Content-Length: 12581 |
-| Administration |  | SimpleShare NAS | SimpleShare |
-| Administration |  | Snom | snom embedded |
-| Administration |  | test | admin 1234 |
-| Administration |  | Watchguard fierwalls | firewall 200 - date -Internet -netgear -proxy -charset -length -220 |
-| Administration |  | ZENworks | ZENworks |
-| Administration |  | Zhone Single-Line Multi-Service | Zhone SLMS |
-| Cisco |  | Cisco Devices | cisco-ios |
-| Cisco |  | cisco elnet web | cisco port:23,80 |
-| Cisco |  | CISCO IOS India | cisco-ios country:IN |
-| Cisco |  | Cisco Iso in Algeria | cisco-ios country:DZ |
-| Cisco |  | cisco no brasil | cisco-ios "last-modified" country:BR |
-| Cisco |  | Cisco Open Web Boxs | cisco last-modified Accept-Ranges: none |
-| Cisco |  | Cisco VPN Concentrator - admin | Cisco VPN Concentrator admin.html |
-| Cisco |  | Cisco VPN Concentrator | Cisco VPN Concentrator |
-| Cisco |  | CiscoPhone 7912 | 7912 cisco |
-| Cisco |  | CiscoPhone 7940 | 7940 cisco |
-| Cisco |  | IOS HACK - old | 1993 "cisco-ios" + "last-modified" |
-| CMS |  | Drupal | drupal |
-| CMS |  | Joomla | joomla |
-| CMS |  | Wordpress | wordpress |
-| Common Files |  | Proxy.php | proxy.php |
-| Default Credentials |  | default password | default password |
-| Default Credentials |  | Passwords | Default Login Authenticate |
-| DNS Server |  | PowerDNS | PowerDNS |
-| Firewall |  | dotDefender WAF | X-dotDefender-denied |
-| FTP |  | Anonymous FTP | port:21 230 |
-| FTP |  | China FTP | country:CN port:21 |
-| FTP |  | Filezilla | filezilla |
-| FTP |  | FTP anon successful | Anonymous user logged in |
-| FTP |  | FTP anon successful | Anonymous+access+allowed  connected |
-| FTP |  | FTP anonymous or guest access | ftp 230 -unknown -print |
-| FTP |  | GoldenFTP 4.70 | GoldenFTP |
-| FTP |  | GoldenFTP Server | Golden FTP Server |
-| Languages |  | PHP | X-Powered-By: PHP |
-| Operating System |  | CentOS | centos |
-| Operating System |  | Fedora | Fedora |
-| Operating System |  | IPCop | IPCop |
-| Operating System |  | RedHat | RedHat |
-| Operating System |  | Ubuntu | Ubuntu |
-| Operating System |  | Windows 2000 | Windows 2000 |
-| Operating System |  | Windows 2003 | Windows 2003 |
-| Printer |  | Fuji Xerox Servers | Fuji Xerox |
-| Printer |  | JetDirect | jetdirect |
-| Printer |  | Xerox 4150 | Xerox 4150 |
-| Router |  | Airstation | Airstation |
-| Router |  | DD-WRT | dd-wrt port:80 |
-| Router |  | HUAWEI Routers | SmartAX MT882 |
-| Router |  | HUAWEI ROUTERS | SmartAX MT882 country:RU |
-| Router |  | netgear routers | netgear |
-| Router |  | netgear | netgear |
-| Router |  | Network Switches | Network Switch |
-| Router |  | OpenWRT | OpenWRT |
-| Router |  | Router w/ Default Info | admin+1234 |
-| SCADA and ICS |  | BACnet devices | bacnet |
-| SCADA and ICS |  | Electro Industries GaugeTech | EIG Embedded Web Server |
-| SCADA and ICS |  | Open SCADA Niagara systems | niagara_audit -login |
-| SCADA and ICS |  | Photovoltaic | sunny webbox port:80 |
-| SCADA and ICS |  | Rockwell SLC-505 PLC | slc 505 |
-| SCADA and ICS |  | SCADA USA | scada country:US |
-| SCADA and ICS |  | SCADA | Niagara Web Server |
-| SCADA and ICS |  | SCADA | scada |
-| SCADA and ICS |  | Siemens s7 | siemens s7 |
-| SCADA and ICS |  | Siemens SIMATIC | port:161 simatic |
-| SCADA and ICS |  | Simatic NET | Simatic -S7 -HMI |
-| SCADA and ICS |  | Simatic S7 SCADA | Simatic+S7 |
-| SCADA and ICS |  | Simatic S7 | Simatic S7 |
-| SCADA and ICS |  | Telemetry Gateway | telemetry gateway |
-| Server Modules |  | W3 Total Cache | X-Powered-By:W3 Total Cache |
-| Television |  | Allied telesyn equipment | allied telesys port:23 |
-| Television |  | Dreambox SE | dreambox SE |
-| Television |  | Dreambox/Enigma2 WebInterface | Enigma2 WebInterface Server |
-| Television |  | Dreambox | dreambox |
-| Television |  | spinetix hyper media player | spinetix |
-| Television |  | Tandberg Television  Web server | Tandberg Television Web server |
-| Television |  | Ubicom | Ubicom -401 |
-| VOIP |  | AddPac Technology | AddPac |
-| VOIP |  | AddPac VoIP | AddPac |
-| VOIP |  | airtel | airtel |
-| VOIP |  | asterisk | asterisk |
-| VOIP |  | BT Home Hub | SIP User-Agent BT Home Hub |
-| VOIP |  | Cisco 7940 | 7940 cisco |
-| VOIP |  | Cisco SIP proxy | CISCO 200 port:5060 |
-| VOIP |  | firmex.com | hostname:firmex.com |
-| VOIP |  | Nortel SIP devices | port:5060 Nortel |
-| VOIP |  | Snom phones without passwords | snom embedded 200 OK |
-| VOIP |  | Snom SIP | port:5060 snom |
-| VOIP |  | Snom VOIP phones with no authentication | snom embedded |
-| VOIP |  | Tenor | Tenor |
-| VOIP |  | trixbox sip server | trixbox port:5060 |
-| VOIP |  | Web interface for Huawei IP phones--no authentication required | huawei -301 -302 -400 -401 |
-| Web Server |  | Virata-EmWeb | Virata-EmWeb |
-| Web Server |  | AFHCAN Telehealth | apache 0.9* port:80 |
-| Web Server |  | Centos apache | country:in apache centos hostname:exacttouch.com |
-| Web Server |  | Commodore 64 Web servers | Commodore 64 |
-| Web Server |  | Default IIS Web Pages | iisstart.htm |
-| Web Server |  | F5 Traffic Shield | F5-TrafficShield |
-| Web Server |  | Google | google |
-| Web Server |  | Gordian Embedded | Gordian Embedded |
-| Web Server |  | i.LON | 200 OK i.LON |
-| Web Server |  | IBM HTTP Server | IBM-HTTP-Server |
-| Web Server |  | IIS 3.0 webservers | IIS 3.0  -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" |
-| Web Server |  | IIS 4.0 in AU | iis4.0  country:AU |
-| Web Server |  | IIS 4.0 webservers | IIS 4.0  -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" -"404" -"403" -"302" |
-| Web Server |  | IIS 4.0 | IIS 4.0  -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" -"404" -"403" -"302" |
-| Web Server |  | IIS 4.0 | IIS 4.0  -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" -"404" -"403" -"302" port:80 country:IN |
-| Web Server |  | iis 5.0 | iis 5.0 |
-| Web Server |  | iis 6.0 webDav | iis 6.0 webdav |
-| Web Server |  | IIS in the US with CSP | port:80 country:US X-Content-Security-Policy asp.net |
-| Web Server |  | iWeb | Server: iWeb HTTP |
-| Web Server |  | KM MFP HTTP Server | KM-MFP-http |
-| Web Server |  | lighttpd on iphones | iPhone lighttpd |
-| Web Server |  | LiteSpeed | Server: LiteSpeed |
-| Web Server |  | mod_antiloris | mod_antiloris |
-| Web Server |  | mod_security | mod_security |
-| Web Server |  | Oracle Web Listener | Oracle_Web_Listener |
-| Web Server |  | Profense | Profense |
-| Web Server |  | SkyX HTTPS gateway | SkyX HTTPS |
-| Web Server |  | SUCKUP.de: Mein IT-Blog | nginx de country:DE |
-| Web Server |  | Synology Disk Station | apache 2.2.13 302 5000 |
-| Web Server |  | Test Apache | apache |
-| Web Server |  | Windows CE | wince |
-| Web Server |  | WindWeb server | WindWeb |
-| Web Server |  | Xerver HTTP Server | Xerver |
-| Web Server |  | z/oS | (zOS) -Apache -IIS -Extraweb -kerio -sestbc510 |
-| Webcam |  | AVTech IP Camera | linux upnp avtech |
-| Webcam |  | Belkin NetCam | netcam |
-| Webcam |  | DCS-5220 | dcs 5220 |
-| Webcam |  | GeoHttpServer WebCam | Server: GeoHttpServer |
-| Webcam |  | TeleEye | TeleEye |
-| Webcam |  | Vivotek Network Camera | Vivotek Network Camera 200 |
-| Webcam |  | webcam imagiatek | imagiatek ipcam |
-| Webcam |  | webcam VIDEO WEB SERVER | sq-webcam |
-| Webcam |  | webcam vipcap vilar | Boa ipcam |
-| Webcam |  | Webcam | Server: SQ-WEBCAM |
-| Windows |  | win | country:BG port:443 os:windows |
-| ZENworks |  | Remote Access Controller | RAC_ONE_HTTP |
+```shell
+ABB AC 800M # "ABB - AC 800M Controller"
+ABB RTU560 # "ABB - RTU560 Substation automation product"
+ABB RTU-Helpdesk # "ABB - RTU500 Remote Terminal Unit"
+ABB SREA-01 # "ABB - SREA-01 Ethernet Adapter Module"
+ABB Webmodule # "ABB - Generic Multiple Devices"
+AKCP Embedded Web Server # "ACKP - Generic Multiple Devices, often data center monitoring"
+A440 Wireless Modem # "Adcon Telemetry - A440 Wireless Modem Base Station"
+A850 Telemetry Gateway # "Adcon Telemetry - A850 Telemetry Gateway Base Station for Adcon Wireless Sensor Networks"
+addUPI Server # "Adcon Telemetry - addUPI-OPC Server"
+addVANTAGE # "Adcon Telemetry - addVANTAGE Pro 6.X HMI"
+title:adcon # "Adcon Telemetry - Generic Generic"
+IPC@CHIP # "Beck IPC - IPC@CHIP PLC"
+Cimetrics Eplus Web Server # "Cimetrics - Eplus - B/IP to B/WS Gateway Firewall networking products for distributed monitoring and control systems"
+ISC SCADA Service HTTPserv:00001 # "Clorius Controls A/S - ISC SCADA SCADA Software"
+Webvisu # "Codesys - WebVisu"
+Visu Remote Login # "CodeSys - WebVisu"
+port:2455 operating system # "Codesys"
+3S-Smart Software Solutions # "CodeSys"
+DELTA enteliTOUCH # "Delta Controls - enteliTOUCH HMI Building automation"
+i.LON # "Echelon - i.LON SmartServer 2.0 Building Energy Management Solution, LonWorks/IP Server, Internet Server"
+CIMPLICITY WebView # "General Electric - CIMPLICITY WebView CIMPLICITY is HMI/SCADA"
+CIMPLICITY-HttpSvr # "General Electric - Cimplicity CIMPLICITY is HMI/SCADA"
+ProficyPortal # "General Electric - Proficy Historian (now named GE Digital)"
+port:18245,18246 product:"general electric" # "General Electric - Service Request Transport Protocol (GE-SRTP)"
+port:502 # "Generic - Modus"
+port:20000 source address # "Generic - dnp"
+port:47808 # "Generic - BACnet protocol (Data Communication Protocol for Building Automation and Control Networks)"
+port:44818 # "Generic - EtherNet/IP"
+port:5094 hart-ip # "Generic - The HART Communications Protocol (Highway Addressable Remote Transducer Protocol) is an early implementation of Fieldbus, a digital industrial automation protocol."
+GoAhead-Webs InitialPage.asp # "Generic - goAhead embedded webserver"
+Modbus Bridge # "Generic"
+ModbusGW # "Generic"
+PLC type # "Generic - Generic Generic"
+PLC name # "Generic - Generic Generic"
+Powerlink # "Generic - Industrial Ethernet system, open-source used by various vendoes openPowerlink, ethernet-powerlink.org devices (PLC HMI ..)"
+SCADA # "Generic"
+webSCADA # "Generic"
+HMS AnyBus-S WebServer # "HMS - EtherNet/IP / Modbus-TCP Interface Generic"
+eiPortal # "Honeywell EnergyICT - eiPortal Energy Monitoring Software"
+EnergyICT RTU # "Honeywell EnergyICT - RTU Remote Data Concentrator"
+port:20547 PLC # "KW Software, Inc. - ProConOS / PLC"
+lantronix # "Lantronix"
+lantronix port:9999 # "Lantronix - default telnet port"
+port:30718 lantronix # "Lantronix"
+port:5006,5007 product:mitsubishi # "Mitsubishi Electric - MELSEC-Q Series"
+Moscad ACE # "Motorola - Moscad"
+MovWebClientX # "Movicon/Progea - Web-Client"
+ioLogik Web Server # "Moxa - ioLogik Web Server SCADA Software"
+port:4800 'Moxa Nport' # "Moxa - Nport and OnCell devices"
+title:'NPort web console' # "Moxa - Nport devices"
+MoxaHttp # "Moxa - AirWorks AWK-3131-RCC/Railway Remote I/O (ioLogik E12xx)/Cellular Micro RTU Controller (ioLogik W53xx, ioLogik)/VPort 461 Industrial Video Encoder/IA240 Embedded computer/IA241 Embedded computer/OnCell Central Manager/EDS-505A Series/EDS-508A Series/OnCell G3100 Series/Generic generic"
+port:4800 'OnCell' # "Moxa - OnCell devices"
+WindWeb # "NRG Systems - WindCube Wind Speed Meter"
+port:9600 response code # "Omron - FINS, Factory Interface Network Service,"
+Visu+ Web Client # "Phoenix Contact GmbH - SCADA visualization system"
+port:1962 PLC # "Phonix Contact - PCWorxs"
+PLC Type: AXC # "Phonix Contact - AXC is a modular small-scale controller for the Axioline I/O system PCWorxs"
+PLC Type: ILC # "Phonix Contact - ILC controllers PCWorxs"
+Quantum BACnet # "Quantum - Multiple Devices"
+title:phasefale Z-World Rabbit # "Rabbit - Z-World Rabbit Multiple Devices"
+Z-World Rabbit # "Rabbit - Generic Multiple Devices"
+port:789 product:"Red Lion Controls" # "Red Lion Controls - Red Lion Controls G306a human machine interface (HMI)."
+Reliance 4 Control Server # "Reliance - Reliance 4 SCADA/HMI system SCADA/HMI Software"
+Rockwell Automation # "Rockwell Automation - Generic Generic"
+Allen-Bradley # "Rockwell Automation / Allen-Bradley - Generic Generic"
+Micrologix # "Rockwell Automation / Allen-Bradley - small programmable logic controller solution"
+Series C Revision # "Rockwell Automation / Allen-Bradley - Generic Generic"
+RTS SCADA Server # "RTS Services - General SCADA Software"
+IMasterSaia5_15_03.jar # "SBC - Saia Burgess Control Applet"
+Saia PG5 Web Editor # "SBC"
+Schleifenbauer SPbus gateway # "Schleifenbauer - SPbus gateway Network Gateway"
+CitectSCADA # "Schneider Electric - CitectSCADA HMI / SCADA software package"
+ClearSCADA # "Schneider Electric - Generic SCADA software"
+EGX100MG # "Schneider Electric - PowerLogic EGX EGX100MG"
+Modicon # "Schneider Electric - Modicon generic"
+Modicon M340 # "Schneider Electric - Modicon M340 PLC"
+port:23 'Meter ION' # "Schneider Electric - PowerLogic ION7650 Energy and power meter Energy and power meter"
+Power Measurement Ltd # "Schneider Electric - Generic Energy and power meter"
+PowerLogic # "Schneider Electric - PowerLogic Series Power Monitoring Module"
+Schneider Electric # "Schneider Electric - generic generic"
+Schneider-WEB # "Schneider Electric - General Multiple Devices"
+TELEMECANIQUE BMX # "Schneider Electric - Modicon generic"
+title:PowerLogic # "Schneider Electric - Generic Generic"
+Schneider Electric EGX300 # "Schneider Electric - EGX300"
+HMI XP277 # "Siemens - Simatic HMI HMI"
+Portal0000 # "Siemens - Simatic S7-1200 PLC"
+Portal0000.htm # "Siemens - Simatic S7-300 (pre-2009 versions) PLC"
+S7-200 # "Siemens - Simatic S7-200 PLC"
+S7-300 # "Siemens - Simatic S7-300 PLC"
+Scalance # "Siemens - Scalance generic SCALANCE X Industrial Ethernet switches / SCALANCE W Industrial Wireless LAN / SCALANCE M Industrial routers / SCALANCE S Industrial Security"
+Copyright: Original Siemens Equipment # "Siemens - Generic Generic"
+Simatic # "Siemens - Simatic HMI Generic"
+Welcome to the Windows CE Telnet Service on HMI_Panel # "Siemens - Simatic HMI Generic"
+XP277 # "Siemens - Simatic"
+port:102 # "Siemens - PLC port can not be deactivated by user"
+/gc/flash.php # "Sierra Wireless"
+SoftPLC # "SoftPLC"
+title:Somfy # "Somfy - General Smart Home Devices"
+SpiderControl # "SpiderControl - Generic HMI"
+Stulz GmbH Klimatechnik # "Stulz GmbH - Generic Generic"
+server: iq3 # "Trend - IQ3xcite Controller"
+port:1911,4911 product:Niagara # "Tridium - Fox protocol developed as part of Niagara framework"
+Niagara Web Server # "Tridium - NiagaraAX (ver 1) Software for JACE-2 JACE-403 or JACE-545"
+niagara_audit # "Tridium - NiagaraAX (ver 2) Software for JACE-2 JACE-403 or JACE-545"
+niagara_audit -login # "Tridium - NiagaraAX (ver 3) Software for JACE-2 JACE-403 or JACE-545"
+Niagara-Platform: QNX # "Tridium - Niagara Framework"
+os.name=s:QNX # "Tridium - Niagara Framework"
+Server: VTScada # "Trihedral - VTScada ODBC Server"
+title:WAGO # "Wago - Generic Generic"
+VxWorks # "Wind River - VxWorks SCADA Software"
+WindRiver-WebServer # "Wind River - Generic Generic"
+title:'xzeres wind' # "Xzeres - 442SR small wind turbine"
+port:2404 asdu address # "Generic - IEC 60870 part 5 is one of the IEC 60870 set of standards which define systems used for SCADA in electrical engineering and power system automation applications."
+title:'Carel pCOWeb Home Page' # "Carel - pCO sistema pCOWeb is used to interface pCO Sistema to networks that use the HVAC protocols like BACnet IP Modbus TCP/IP or SNMP"
+title:'Heatmiser Wifi Thermostat' # "Heatmiser - wireless room thermostats"
+tag:ics # "generic - searching tag values requires suitable account"
+tag:iot # "generic - searching tag values requires suitable account"
+Local BACnet Device object"Tridium" # "Tridium - BACNet Devices"
+Carel BACnet Gateway # "Carel - BACNet Devices"
+Siemens BACnet Field Panel # "Siemens - BACNET Devices"
+BACnet Broadcast Management Device # "generic - BACNet Devices"
+I20100 port:10001 # "Veeder-root - Automated Tank Gauge (Vendor most likely Veeder-Root but not guaranteed) results typically contain a lot of honyepots (conpot)"
+screenshot.label:ics # "Generic - Screenshots tagged as ICS (will contain some false positives)"
+port:1883"MQTT Connection Code" # "Generic - standard port for MQTT + MQTT banner / MQTT -> MQ Telemetry Transport"
+port:8883"MQTT Connection Code" # "Generic - standard port for MQTT over SSL + MQTT banner / MQTT -> MQ Telemetry Transport / UNTESTED"
+port:1883 Fronius # "Fronius - Generic solar energy, most likely inverters"
+Press Enter for Setup Mode port:9999 # "Lantronix - default telnet port without password enabled hint: Lantronix includes MAC address in banner which can be used for extra validation"
+Server: CarelDataServer"200 Document follows" # "Carel - PlantVisor"
+"http.title:""Nordex Control""""Windows 2000 5.0 x86""""Jetty/3.1 (JSP 1.1 Servlet 2.2 java 1.6.0_14)"" # "" Nordex - Wind Farm Portal"
+hostname:edu country:us port:22 # "dministration - .edu US SSH"
+admin 1234 # "Administration - admin/1234"
+port:80 admin # "Administration - admin"
+200 OK -Microsoft -Virata -Apache Allegro # "Administration - Allegro"
+1.1-rr-std-b12 port:80 # "Administration - AMX Control Systems"
+Anonymous+access+allowed # "Administration - Anonymous Access Allowed"
+anonymous access granted # "Administration - Anonymous Access Granted"
+APC Management Card # "Administration - APC Management Card"
+apc # "Administration - apc"
+barracuda # "Administration - Barracuda targets"
+bigfix # "Administration - bigfix"
+CarelDataServer # "Administration - CarelDataServer"
+CERN 3.0 # "Administration - Cern 3.0"
+a license exception # "Administration - Coldfusion Developer Edition"
+computershare # "Administration - CPU"
+Remote Access Controller port:80 # "Administration - Dell Remote Access Controller"
+delta # "Administration - Delta Networks Inc"
+fast dns port:80 # "Administration - DNS"
+etcd # "Administration - etcd"
+firewall 200 # "Administration - Firewalls"
+port:22 # "Administration - General SSH"
+230-Hewlett-Packard # "Administration - Hewlett Packard print ftp"
+HitboxGateway9 # "Administration - hitbox"
+HP-ChaiSOE # "Administration - HP LaserJet 4250"
+jetdirect # "Administration - JetDirect HP Printer"
+liebert - liebert.com # "Administration - Liebert Devices"
+Exchange # "Administration - Micro$oft Exchange"
+nga.mil # "Administration - ngamil"
+port:5060 Nortel # "Administration - Nortel SIP devices"
+ossim # "Administration - ossim"
+port:23"list of built-in commands" # "Administration - Root shell"
+wince Content-Length: 12581 # "Administration - SAPHIR"
+SimpleShare # "Administration - SimpleShare NAS"
+snom embedded # "Administration - Snom"
+admin 1234 # "Administration - test"
+firewall 200 - date -Internet -netgear -proxy -charset -length -220 # "Administration - Watchguard fierwalls"
+ZENworks # "Administration - ZENworks"
+Zhone SLMS # "Administration - Zhone Single-Line Multi-Service"
+cisco-ios # "Cisco - Cisco Devices"
+cisco port:23,80 # "Cisco - cisco elnet web"
+cisco-ios country:IN # "Cisco - CISCO IOS India"
+cisco-ios country:DZ # "Cisco - Cisco Iso in Algeria"
+cisco-ios"last-modified" country:BR # "Cisco - cisco no brasil"
+cisco last-modified Accept-Ranges: none # "Cisco - Cisco Open Web Boxs"
+Cisco VPN Concentrator admin.html # "Cisco - Cisco VPN Concentrator - admin"
+Cisco VPN Concentrator # "Cisco - Cisco VPN Concentrator"
+7912 cisco # "Cisco - CiscoPhone 7912"
+7940 cisco # "Cisco - CiscoPhone 7940"
+1993"cisco-ios" +"last-modified" # "Cisco - IOS HACK - old"
+drupal # "CMS - Drupal"
+joomla # "CMS - Joomla"
+wordpress # "CMS - Wordpress"
+proxy.php # "Common Files - Proxy.php"
+default password # "Default Credentials - default password"
+Default Login Authenticate # "Default Credentials - Passwords"
+PowerDNS # "DNS Server - PowerDNS"
+X-dotDefender-denied # "Firewall - dotDefender WAF"
+port:21 230 # "FTP - Anonymous FTP"
+country:CN port:21 # "FTP - China FTP"
+filezilla # "FTP - Filezilla"
+Anonymous user logged in # "FTP - FTP anon successful"
+Anonymous+access+allowed connected # "FTP - FTP anon successful"
+ftp 230 -unknown -print # "FTP - FTP anonymous or guest access"
+GoldenFTP # "FTP - GoldenFTP 4.70"
+Golden FTP Server # "FTP - GoldenFTP Server"
+X-Powered-By: PHP # "Languages - PHP"
+centos # "Operating System - CentOS"
+Fedora # "Operating System - Fedora"
+IPCop # "Operating System - IPCop"
+RedHat # "Operating System - RedHat"
+Ubuntu # "Operating System - Ubuntu"
+Windows 2000 # "Operating System - Windows 2000"
+Windows 2003 # "Operating System - Windows 2003"
+Fuji Xerox # "Printer - Fuji Xerox Servers"
+jetdirect # "Printer - JetDirect"
+Xerox 4150 # "Printer - Xerox 4150"
+Airstation # "Router - Airstation"
+dd-wrt port:80 # "Router - DD-WRT"
+SmartAX MT882 # "Router - HUAWEI Routers"
+SmartAX MT882 country:RU # "Router - HUAWEI ROUTERS"
+netgear # "Router - netgear routers"
+netgear # "Router - netgear"
+Network Switch # "Router - Network Switches"
+OpenWRT # "Router - OpenWRT"
+admin+1234 # "Router - Router w/ Default Info"
+bacnet # "SCADA and ICS - BACnet devices"
+EIG Embedded Web Server # "SCADA and ICS - Electro Industries GaugeTech"
+niagara_audit -login # "SCADA and ICS - Open SCADA Niagara systems"
+sunny webbox port:80 # "SCADA and ICS - Photovoltaic"
+slc 505 # "SCADA and ICS - Rockwell SLC-505 PLC"
+scada country:US # "SCADA and ICS - SCADA USA"
+Niagara Web Server # "SCADA and ICS - SCADA"
+scada # "SCADA and ICS - SCADA"
+siemens s7 # "SCADA and ICS - Siemens s7"
+port:161 simatic # "SCADA and ICS - Siemens SIMATIC"
+Simatic -S7 -HMI # "SCADA and ICS - Simatic NET"
+Simatic+S7 # "SCADA and ICS - Simatic S7 SCADA"
+Simatic S7 # "SCADA and ICS - Simatic S7"
+telemetry gateway # "SCADA and ICS - Telemetry Gateway"
+X-Powered-By:W3 Total Cache # "Server Modules - W3 Total Cache"
+allied telesys port:23 # "Television - Allied telesyn equipment"
+dreambox SE # "Television - Dreambox SE"
+Enigma2 WebInterface Server # "Television - Dreambox/Enigma2 WebInterface"
+dreambox # "Television - Dreambox"
+spinetix # "Television - spinetix hyper media player"
+Tandberg Television Web server # "Television - Tandberg Television Web server"
+Ubicom -401 # "Television - Ubicom"
+AddPac # "VOIP - AddPac Technology"
+AddPac # "VOIP - AddPac VoIP"
+airtel # "VOIP - airtel"
+asterisk # "VOIP - asterisk"
+SIP User-Agent BT Home Hub # "VOIP - BT Home Hub"
+7940 cisco # "VOIP - Cisco 7940"
+CISCO 200 port:5060 # "VOIP - Cisco SIP proxy"
+hostname:firmex.com # "VOIP - firmex.com"
+port:5060 Nortel # "VOIP - Nortel SIP devices"
+snom embedded 200 OK # "VOIP - Snom phones without passwords"
+port:5060 snom # "VOIP - Snom SIP"
+snom embedded # "VOIP - Snom VOIP phones with no authentication"
+Tenor # "VOIP - Tenor"
+trixbox port:5060 # "VOIP - trixbox sip server"
+huawei -301 -302 -400 -401 # "VOIP - Web interface for Huawei IP phones--no authentication required"
+Virata-EmWeb # "Web Server - Virata-EmWeb"
+apache 0.9* port:80 # "Web Server - AFHCAN Telehealth"
+country:in apache centos hostname:exacttouch.com # "Web Server - Centos apache"
+Commodore 64 # "Web Server - Commodore 64 Web servers"
+iisstart.htm # "Web Server - Default IIS Web Pages"
+F5-TrafficShield # "Web Server - F5 Traffic Shield"
+google # "Web Server - Google"
+Gordian Embedded # "Web Server - Gordian Embedded"
+200 OK i.LON # "Web Server - i.LON"
+IBM-HTTP-Server # "Web Server - IBM HTTP Server"
+IIS 3.0 -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" # "Web Server - IIS 3.0 webservers"
+iis4.0 country:AU # "Web Server - IIS 4.0 in AU"
+IIS 4.0 -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" -"404" -"403" -"302" # "Web Server - IIS 4.0 webservers"
+IIS 4.0 -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" -"404" -"403" -"302" # "Web Server - IIS 4.0"
+IIS 4.0 -"6.0" -"7.0" -"7.5" -"5.0" -"5.1" -"404" -"403" -"302" port:80 country:IN # "Web Server - IIS 4.0"
+iis 5.0 # "Web Server - iis 5.0"
+iis 6.0 webdav # "Web Server - iis 6.0 webDav"
+port:80 country:US X-Content-Security-Policy asp.net # "Web Server - IIS in the US with CSP"
+Server: iWeb HTTP # "Web Server - iWeb"
+KM-MFP-http # "Web Server - KM MFP HTTP Server"
+iPhone lighttpd # "Web Server - lighttpd on iphones"
+Server: LiteSpeed # "Web Server - LiteSpeed"
+mod_antiloris # "Web Server - mod_antiloris"
+mod_security # "Web Server - mod_security"
+Oracle_Web_Listener # "Web Server - Oracle Web Listener"
+Profense # "Web Server - Profense"
+SkyX HTTPS # "Web Server - SkyX HTTPS gateway"
+nginx de country:DE # "Web Server - SUCKUP.de: Mein IT-Blog"
+apache 2.2.13 302 5000 # "Web Server - Synology Disk Station"
+apache # "Web Server - Test Apache"
+wince # "Web Server - Windows CE"
+WindWeb # "Web Server - WindWeb server"
+Xerver # "Web Server - Xerver HTTP Server"
+(zOS) -Apache -IIS -Extraweb -kerio -sestbc510 # "Web Server - z/oS"
+linux upnp avtech # "Webcam - AVTech IP Camera"
+netcam # "Webcam - Belkin NetCam"
+dcs 5220 # "Webcam - DCS-5220"
+Server: GeoHttpServer # "Webcam - GeoHttpServer WebCam"
+TeleEye # "Webcam - TeleEye"
+Vivotek Network Camera 200 # "Webcam - Vivotek Network Camera"
+imagiatek ipcam # "Webcam - webcam imagiatek"
+sq-webcam # "Webcam - webcam VIDEO WEB SERVER"
+Boa ipcam # "Webcam - webcam vipcap vilar"
+Server: SQ-WEBCAM # "Webcam - Webcam"
+country:BG port:443 os:windows # "Windows - win"
+RAC_ONE_HTTP # "ZENworks - Remote Access Controller"
+```
