@@ -1,7 +1,7 @@
 ---
 title: Shodan.io Tutorials for Best Practices
 categories: [red team, reconing]
-tags: [recon-ng, recon-ng tutorials, recon-ng best practicies, recon-ng enumeration, recon-ng usage, red-team]
+tags: [shodan.io, shodan tutorials, shodan best practicies, enumeration with shodan, shodan usage, red-team]
 comments: true
 ---
 # What is Shodan?
