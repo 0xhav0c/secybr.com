@@ -87,6 +87,10 @@ You can find subdomains with certificates by searching target domains in online 
 
 ![Subdomain enumeration from check the https://crt.sh](/assets/img/pitcures/red-team/subdomain2.png)
 _Subdomain enumeration from check the https://crt.sh_
+
+```shell
+curl 'https://crt.sh/?q=%.example.com&output=json' | jq '.name_value' | sed 's/\"//g' | sed 's/\*\.//g' | sort -u
+```
 # Parsing to Valid Subdomains
 
 ```python
